@@ -1,8 +1,5 @@
 #include "main.h"
-<<<<<<< HEAD
 
-=======
->>>>>>> 5ec528cb4e78424d94e55fe00c14ee58466f4b96
 /**
  * get_precision - Calculates the precision for printing
  * @format: Formatted string in which to print the arguments
@@ -11,6 +8,7 @@
  *
  * Return: Precision.
  */
+
 int get_precision(const char *format, int *i, va_list list)
 {
 	int curr_i = *i + 1;
